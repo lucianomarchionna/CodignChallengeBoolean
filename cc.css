@@ -1,0 +1,87 @@
+ body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+  width: 1200px; /*grandezza contenitore, riduce la dimensione del contenuto*/
+  margin: auto;
+  background: rgba(0,0,0,0.5); /*utilizzo il background di tipo rgba per non far ereditare l'opacita ai figli con opacity*/
+  border-radius: 13px;
+}
+
+.logo{
+  padding-top: 30px;
+  width: 220px; /* dimensione immagine */
+}
+
+.logotext{
+  font-size: 35px;   /* dimensione testo */
+  color: #1ce01c;
+}
+
+nav{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding:15px;
+  width: auto;
+  background-color: #1ce01c;
+}
+
+main{
+  margin: 50px;
+}
+
+.margine{
+  margin-top: 30px;
+  color: white;
+}
+
+.monopattino{
+  font-size: 24px;
+}
+
+p{
+  font-size: 17px;
+}
+
+.freccia:before{
+  content: 	"\21A6"; /*aggiungere la freccia verso destra prima del testo*/
+}
+
+.rettangolo1{                  /* creazione primo rettangolo */
+  height: 35px;                  /* altezza  */
+  width: 320px;                  /* larghezza  */
+  background-color: #ffbb40;      /* colore */
+  border-radius: 7px;           /* taglio angoli */
+}
+
+.rettangolo2{
+  height: 35px;
+  width: 560px;
+  background-color: #1ce01c;
+  border-radius: 7px;
+}
+
+.rettangolo3{
+  height: 35px;
+  width: 150px;
+  background-color: #ff4040;
+  border-radius: 7px;
+}
+
+.padding{
+  padding-bottom: 30px;
+}
+
+footer{
+  text-align: center;
+  color: #1ce01c;
+}
+
+#nome{                        /*creazione cerchio intorno al link*/
+  color: blue;
+  background-color: #1ce01c;
+  border-radius: 50%;
+  padding: 15px;
+}
